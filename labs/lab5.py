@@ -12,6 +12,6 @@ Age = (datetime.datetime.now()-DOB)
 print("You are" + str(Age.days) + "days old")
 
 convertdays = int(Age.days)
-AgeYears =Convertdays/365
+AgeYears = convertdays/365
 
 pront("Or" + str(AgeYears) + " years old to be less precise!")

@@ -1,10 +1,12 @@
 import datetime
 
 Year = int(input("Please enter the year you were born"))
-Month = int(input("Please enter the number of the month you were born. 3 = March"))
+
+Month = int(input("Please enter the number of the month you were born. For example 3 = March"))
+
 Day = int(input("Please enter the day you were born"))
 
-DOB = datetime.ddatetime(Year,Month,Day)
+DOB = datetime.datetime(Year,Month,Day)
 Age = (datetime.datetime.now()-DOB)
 
 print("You are" + str(Age.days) + "days old")

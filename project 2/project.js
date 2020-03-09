@@ -26,7 +26,8 @@ function printResults(){
     "</br>Age in Hours : "+hours+
     "</br>Age in Seconds : "+seconds+
     "</br>Age in Milliseconds : "+milliseconds+
-   document.getElementById('placeholder').innerHTML = message;
+   document.getElementById('placeholder').innerHTML;
 }
 
 window.onload = printResults;
+

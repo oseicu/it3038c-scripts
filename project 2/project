@@ -1,0 +1,10 @@
+var DOB = "March 30, 1995";
+
+var millisecondsBetweenDOBAnd1980 = Date.parse(DOB);
+var millisecondsBetweenNowAnd1980 = Date.now(DOB);
+var ageInMilliseconds = milliscondsBetweenNowAnd1980-millisecondsBetweenDOBAnd1980;
+
+var milliseconds = ageInmilliseconds;
+var second = 1000;
+var minute = second*60;
+var hour = minute*60;

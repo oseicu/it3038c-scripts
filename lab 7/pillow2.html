@@ -1,7 +1,16 @@
-import sys
+import os
 from PIL import Image
- with Image.open("C:\Users\nanay\Downloads\pexels-photo-858192") as import:
 
- print(import.format, import.mode, "%dx%d" import.size)
-except I0Error:
-  pass
+image1 = Image.open('pixel.jpg'):
+image1.convert(mode='L').save('pixel_mod.jpg')
+
+size_500 = (500,500)
+ for f in os.listdir('.'):
+   if f.endswitch('.jpg'):
+     i = Image.open(f)
+     fn, fext = os.path.splitext(f)
+     i.thumbnail(size_500)
+     i.save('500/{}_500()'.format(fn, fext))
+   
+   
+     print fext

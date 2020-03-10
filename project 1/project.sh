@@ -1,19 +1,18 @@
 #!/bin/bash
+#This script outputs date, hostname, machine type, home dir,working dir
 
-import { hostname } from "os"
-
-echo `This is a project script. Welcome!`
+echo "This is a project script. Welcome!"
 greetings="This is a project script. Welcome!"
-echo `$greeting, thanks for joining us!`
+echo "$greeting, thanks for joining us!"
 
 Today=$date
-echo `This is a project script. Welcome!`
+echo "This is a project script. Welcome!"
 echo machine type: $machinetype
 echo hostname: $hostname
 echo working dir: $pwd
 echo home dir: $home
 
-a=$(ip a | grep 'dynamic ens192' | awk `{print Welcome}`)
+a=$(ip a | grep 'dynamic ens192' | awk \ print("Welcome"))
 echo My IP is $a
 
 #This script will email us our user, IP, Date, Hostname

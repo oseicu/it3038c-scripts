@@ -1,3 +1,4 @@
+//display age in millisseconds, days, hours, seconds, minute, year
 var DOB = "March 30, 1995";
 
 var millisecondsBetweenDOBAnd1980 = Date.parse(DOB);
@@ -26,7 +27,7 @@ function printResults(){
     "</br>Age in Hours : "+hours+
     "</br>Age in Seconds : "+seconds+
     "</br>Age in Milliseconds : "+milliseconds+
-   document.getElementById('placeholder').innerHTML;
+   document.getElementById('placeholder').innerHTML = message;
 }
 
 window.onload = printResults;

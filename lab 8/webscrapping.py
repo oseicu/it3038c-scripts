@@ -18,4 +18,3 @@ for a in tags:
     print(a[0].string)
 print(type (soup))
 print(soup.prettify()[:100])
-for link in soup.find all ('a', attrs={'href':re.compile("^http://github.com")}): print(link.get('href'))

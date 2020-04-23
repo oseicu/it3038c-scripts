@@ -13,7 +13,7 @@ data = widgets.split()  #split string into a list
 
 for temp in data:
     print temp
-    
+
 #print(type(data))
 print(data['weather'][0]['description'])
 

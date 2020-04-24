@@ -1,0 +1,7 @@
+{% extends "layout.html"%}
+
+{%block content %}
+<p><em>Hello, {{name}}. Welcome to my app!</em>
+    <form action="/welcome" method="POST"><input name="myName"><input type="submit" valur="submit"></form>
+</p>
+{% endblock %}

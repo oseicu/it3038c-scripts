@@ -16,6 +16,3 @@ for temp in data:
 
 #print(type(data))
 print(data['weather'][0]['description'])
-
-
-

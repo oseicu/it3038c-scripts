@@ -1,13 +1,14 @@
 from flask import Flask, render_template, request
 
 app = FLask(__name__)
-app.config.from.object(__name__)
-app.run(debug=True, port=5000, host='0.0.0.0')
+app.config.fom_object(__name__)
 
 @app.route("/")
 def hello():
-    name='CO'
+    #myname='CO'
     return render_template("index.html",value=name)
+    #, name=myName)
+
 
 @app.route('/welcome', methods=['POST'])
 def welcome():

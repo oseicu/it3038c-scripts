@@ -5,4 +5,4 @@ secondDate = date(2005 , 4 , 4)
 
 delta = firstDate - secondDate
 
-print("date between two date is:" ,delta.days)
+print("Date between two date is:" ,delta.days)
